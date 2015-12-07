@@ -11,7 +11,6 @@
 		2A22C0A71C1417BC00EA09BE /* signaler_t.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A22C0A51C1417BC00EA09BE /* signaler_t.cpp */; };
 		2A22C0AA1C1419AE00EA09BE /* ip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A22C0A81C1419AE00EA09BE /* ip.cpp */; };
 		2A22C0AD1C14353C00EA09BE /* mailbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A22C0AB1C14353C00EA09BE /* mailbox.cpp */; };
-		2A22C0B31C145E3100EA09BE /* array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A22C0B11C145E3100EA09BE /* array.cpp */; };
 		2A6E92231C12118D00931AF5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A6E92221C12118D00931AF5 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 		2A22C0AB1C14353C00EA09BE /* mailbox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mailbox.cpp; sourceTree = "<group>"; };
 		2A22C0AC1C14353C00EA09BE /* mailbox.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mailbox.hpp; sourceTree = "<group>"; };
 		2A22C0AF1C14356C00EA09BE /* command.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = command.hpp; sourceTree = "<group>"; };
-		2A22C0B11C145E3100EA09BE /* array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = array.cpp; sourceTree = "<group>"; };
 		2A22C0B21C145E3100EA09BE /* array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = array.hpp; sourceTree = "<group>"; };
 		2A6E921F1C12118D00931AF5 /* thread */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = thread; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6E92221C12118D00931AF5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 				2A22C0AB1C14353C00EA09BE /* mailbox.cpp */,
 				2A22C0AC1C14353C00EA09BE /* mailbox.hpp */,
 				2A22C0AF1C14356C00EA09BE /* command.hpp */,
-				2A22C0B11C145E3100EA09BE /* array.cpp */,
 				2A22C0B21C145E3100EA09BE /* array.hpp */,
 			);
 			path = thread;
@@ -156,7 +153,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A22C0AA1C1419AE00EA09BE /* ip.cpp in Sources */,
-				2A22C0B31C145E3100EA09BE /* array.cpp in Sources */,
 				2A22C0A71C1417BC00EA09BE /* signaler_t.cpp in Sources */,
 				2A6E92231C12118D00931AF5 /* main.cpp in Sources */,
 				2A22C0AD1C14353C00EA09BE /* mailbox.cpp in Sources */,

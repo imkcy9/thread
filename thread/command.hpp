@@ -14,7 +14,9 @@ namespace kcy
 {
     struct command_t
     {
-        
+        enum{
+            start = 1,
+        };
     };
 }
 #endif /* command_hpp */
